@@ -1,4 +1,4 @@
-# MongoDB Analysis Quality Evaluation System - Updated
+# MongoDB Analysis Quality Evaluation System
 
 **MongoDB 분석 자동 평가 시스템** - Evidently AI 라이브러리 기반의 4개 핵심 지표 자동 산출 및 Pass/Fail 판정 시스템 + **LLM vs MongoDB 직접 실행 결과 비교**
 
@@ -58,7 +58,7 @@ if metrics.comparison_table is not None:
     print(metrics.comparison_table.to_string(index=False))
 ```
 
-### 상세 평가 및 리포트 (Enhanced)
+### 상세 평가 및 리포트
 ```python
 from mongodb_evaluation_system import UniversalMongoDBEvaluator, UniversalAnalysisResult
 
@@ -81,7 +81,7 @@ print(report)
 
 ## 📊 실제 사용 예제
 
-### 다양한 분석 타입 지원 (Enhanced)
+### 다양한 분석 타입 지원
 ```python
 # 사용자 행동 분석 with 비교
 metrics = quick_evaluate(
@@ -117,7 +117,7 @@ if metrics.comparison_table is not None:
 
 ## ⚙️ 커스텀 설정
 
-### 엄격한 품질 기준 적용 (Enhanced)
+### 엄격한 품질 기준 적용
 ```python
 # 더 엄격한 임계값 설정 + MongoDB 비교 기준
 strict_thresholds = {
@@ -137,7 +137,7 @@ metrics = quick_evaluate(
 )
 ```
 
-### 실시간 품질 게이트 (Enhanced)
+### 실시간 품질 게이트
 ```python
 def reliable_analysis_with_comparison(query):
     """품질 기준 통과할 때까지 자동 재분석 - MongoDB 비교 포함"""
@@ -233,22 +233,6 @@ print(f"MongoDB 일치율: {metrics.mongodb_accuracy_rate:.1%}")  # 🆕
 - **새로운 반환값**: `comparison_table`, `mongodb_accuracy_rate`
 - **향상된 `quick_evaluate()` 함수**
 
-## 📖 예제 실행
-
-### 기본 예제
-```bash
-python mongodb_evaluation_system.py
-```
-
-### Enhanced 통합 예제
-```bash
-python examples/enhanced_integration_examples.py
-```
-
-### 비교 분석 예제
-```bash
-python examples/comparison_analysis_examples.py
-```
 
 ## 🤝 기여 및 라이선스
 
