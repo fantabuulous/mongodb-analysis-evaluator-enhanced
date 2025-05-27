@@ -1,6 +1,6 @@
-# MongoDB Analysis Quality Evaluation System - Enhanced
+# MongoDB Analysis Quality Evaluation System - Updated
 
-**범용 MongoDB 분석 자동 평가 시스템** - Evidently AI 라이브러리 기반의 4개 핵심 지표 자동 산출 및 Pass/Fail 판정 시스템 + **LLM vs MongoDB 직접 실행 결과 비교**
+**MongoDB 분석 자동 평가 시스템** - Evidently AI 라이브러리 기반의 4개 핵심 지표 자동 산출 및 Pass/Fail 판정 시스템 + **LLM vs MongoDB 직접 실행 결과 비교**
 
 ## 🎯 핵심 기능
 
